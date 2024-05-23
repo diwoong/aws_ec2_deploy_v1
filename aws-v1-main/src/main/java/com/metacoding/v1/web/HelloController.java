@@ -21,7 +21,7 @@ public class HelloController {
 			return "<h1>number 값이 -1로 요청했습니다.</h1>";
         }else if(number == 0){ // warn 로그
             log.warn("/aws/v1 이 호출되었어요. warn 로그 #####################################");
-			return "<h1>number 값이 0로 요청했습니다.</h1>";
+			return "<h1>오늘은 즐거운 목요일 꺄하하</h1>";
         }
         
         return "<h2>aaaa aws v1</h2>";
